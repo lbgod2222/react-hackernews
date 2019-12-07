@@ -1,0 +1,55 @@
+.list_item {
+    text-align: left;
+    background-color: #fff;
+    padding: 20px 30px 20px 80px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    line-height: 20px;
+    .score {
+        color: #f60;
+        font-size: 1.1em;
+        font-weight: 700;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 80px;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .title {
+        cursor: pointer;
+        .host {
+            font-size: .85em;
+            color: #828282;
+            cursor: pointer;
+            &:hover {
+                color: #ff6600;
+            }
+        }
+    }
+    .meta {
+        font-size: .85em;
+        color: #828282;
+        .by {
+            a {
+                text-decoration-line: underline;
+                cursor: pointer;
+                &:hover {
+                    color: #ff6600;
+                }
+            }
+        }
+        .time {
+        }
+        .comments_links {
+            a {
+                color: #828282;
+                text-decoration-line: underline;
+                cursor: pointer;
+                &:hover {
+                    color: #ff6600;
+                }
+            }
+        }
+    }
+}
